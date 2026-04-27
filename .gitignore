@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Environment Variables (Crucial for AI Keys)
+.env
+.env.*
+!.env.example
+
+# Production Build
+dist/
+build/
+
+# IDE / System files
+.vscode/
+.DS_Store
