@@ -1,4 +1,3 @@
-Markdown
 # TalkToExpert
 
 Live Application: https://talk-to-expert.vercel.app
@@ -29,33 +28,36 @@ The application is engineered using an explicit development stack chosen for ren
 
 ## Core System Features
 
+* **AI-Powered Expert Consultation**
+  Connect with 12 specialized AI experts, including doctors, lawyers, and teachers, for immediate guidance. The AI advisors provide text-based insights and can suggest appropriate courses of action, such as recommending a physical doctor's visit for specific medical concerns.
+* **Multilingual and Dialect Support**
+  To provide a high level of localization and accessibility, the application offers full language support in English and Japanese. Additionally, it has native capability to communicate in Hinglish, making it a powerful tool for the modern Indian demographic.
+* **Real-Time Interactive Chat Interface**
+  Engage in real-time consultations with AI experts. The UI provides a clean chat interface with features like suggested response buttons (e.g., 'Haan' / 'Nahi') and voice input capabilities. It includes disclaimers and immediate contact options for emergencies.
 * **Dynamic Expert Filtering Matrix**
-  Features multi-parameter filtering arrays that scan through expert listings, yielding instant UI state updates as users refine their search parameters.
-
-* **Interface and Layout System**
+  Features multi-parameter filtering arrays that scan through expert listings by field (Health, Legal, Safety, Education, Finance, Fitness), yielding instant UI state updates as users refine their search parameters.
+* **User Consultation History**
+  The application maintains a history of past consultations, allowing users to reference previous discussions. Users can also manage this history by deleting individual session logs or clearing the entire record.
+* **Secure and Multiple Sign-In Options**
+  Users can securely access the platform using their email and password or leverage a streamlined sign-in process with their Google account. The user-friendly interface handles new account registration and password visibility.
+* **Intuitive and Mobile-First Design System**
   Built on rigid grid alignment systems and fluid layout values to ensure cross-device consistency across mobile viewports, tablet form factors, and ultra-wide displays.
-
-* **Calendar and Scheduling Control Logic**
-  Maintains internal scheduling arrays, tracking user date choices and processing instant verification steps to keep reservation selections accurate.
-
-* **Highly Decoupled Module Design**
-  Isolates presentation components entirely from business logic handlers, enabling high internal testability and straightforward extensions.
 
 ---
 
 ## User Interface and Layout Showcase
 
-Note for Technical Recruiters: To streamline engineering evaluations without requiring a local workspace setup or compilation dependencies, the primary functional boundaries and design systems are captured below. 
+Note for Technical Recruiters: To streamline engineering evaluations without requiring a local workspace setup or compilation dependencies, the primary functional boundaries and design systems are captured below.
 
-To display live previews, update the placeholder image source locations with your actual application asset paths.
+| Home Screen | Experts Dashboard | Consultation Interface |
+| :---: | :---: | :---: |
+| <img src="Screenshot 2026-04-05 195843.png" width="100%" alt="TalkToExpert Home Screen" /> | <img src="Screenshot 2026-04-05 195616.png" width="100%" alt="Experts Listing and Categories" /> | <img src="Screenshot 2026-04-05 195337.png" width="100%" alt="Real-time Chat Interface" /> |
+| App welcome page with access to all available experts and key platforms metrics. | Categorized grid for discovering and filtering AI advisors. | Seamless text and button-based interaction for expert consultation. |
 
-| Expert Discovery Dashboard | Real-Time Consultation View |
-| :--- | :--- |
-| <img src="https://via.placeholder.com/800x450.png?text=Dashboard+Layout+Preview" width="100%" alt="Expert Discovery Interface Layout" /> | <img src="https://via.placeholder.com/800x450.png?text=Consultation+Interface+Preview" width="100%" alt="Consultation Dashboard View" /> |
-
-| Appointment Scheduling Calendar | Profile Analytics Panel |
-| :--- | :--- |
-| <img src="https://via.placeholder.com/800x450.png?text=Booking+System+Preview" width="100%" alt="Booking Calendar Grid" /> | <img src="https://via.placeholder.com/800x450.png?text=Profile+Analytics+Preview" width="100%" alt="Expert Profile Analytics Analytics View" /> |
+| Consultation History | Security and Authentication | User Registration |
+| :---: | :---: | :---: |
+| <img src="Screenshot 2026-04-28 120138.png" width="100%" alt="Consultation History Log" /> | <img src="Screenshot 2026-04-05 195942.png" width="100%" alt="Sign In and Access" /> | <img src="Screenshot 2026-04-05 114534.png" width="100%" alt="Account Creation Interface" /> |
+| A historical record of previous consultation summaries. | Secure access interface featuring Google login and email sign-in. | Streamlined, multi-option user registration flow. |
 
 ---
 
@@ -67,21 +69,3 @@ To review the underlying implementation logic on your system, execute the follow
    ```bash
    git clone [https://github.com/nasir177/TalkToExpert.git](https://github.com/nasir177/TalkToExpert.git)
    cd TalkToExpert
-Populate the local node module binaries:
-
-Bash
-npm install
-Initialize the development build runner:
-
-Bash
-npm run dev
-Build the system for static web optimization:
-
-Bash
-npm run build
-Developer Profiles
-Nasir Hussain - Software Engineer and Frontend Developer
-
-Repository Link: https://github.com/nasir177
-
-LinkedIn: https://linkedin.com
