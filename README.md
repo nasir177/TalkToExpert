@@ -51,12 +51,12 @@ Note for Technical Recruiters: To streamline engineering evaluations without req
 
 | Home Screen | Experts Dashboard | Consultation Interface |
 | :---: | :---: | :---: |
-| <img src="Screenshot 2026-04-05 195843.png" width="100%" alt="TalkToExpert Home Screen" /> | <img src="Screenshot 2026-04-05 195616.png" width="100%" alt="Experts Listing and Categories" /> | <img src="Screenshot 2026-04-05 195337.png" width="100%" alt="Real-time Chat Interface" /> |
+| <img src="Screenshot 2026-04-05 195337.png" width="100%" alt="TalkToExpert Home Screen" /> | <img src="Screenshot 2026-04-05 195843.png" width="100%" alt="Experts Listing and Categories" /> | <img src="Screenshot 2026-04-05 195616.png" width="100%" alt="Real-time Chat Interface" /> |
 | App welcome page with access to all available experts and key platforms metrics. | Categorized grid for discovering and filtering AI advisors. | Seamless text and button-based interaction for expert consultation. |
 
 | Consultation History | Security and Authentication | User Registration |
 | :---: | :---: | :---: |
-| <img src="Screenshot 2026-04-28 120138.png" width="100%" alt="Consultation History Log" /> | <img src="Screenshot 2026-04-05 195942.png" width="100%" alt="Sign In and Access" /> | <img src="Screenshot 2026-04-05 114534.png" width="100%" alt="Account Creation Interface" /> |
+| <img src="Screenshot 2026-04-05 195942.png" width="100%" alt="Consultation History Log" /> | <img src="Screenshot 2026-04-28 120138.png" width="100%" alt="Sign In and Access" /> | <img src="Screenshot 2026-04-05 114534.png" width="100%" alt="Account Creation Interface" /> |
 | A historical record of previous consultation summaries. | Secure access interface featuring Google login and email sign-in. | Streamlined, multi-option user registration flow. |
 
 ---
