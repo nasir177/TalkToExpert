@@ -36,7 +36,7 @@ export default function App() {
 
   if (!splashDone) return <SplashScreen onFinish={handleSplashFinish} />;
   if (authLoading) return <div className="auth-loading"><div className="auth-spinner" /></div>;
-  if (!user) return <LoginScreen onLogin={() => {}} />;
+  if (!user) return <LoginScreen onLogin={() => { }} />;
 
   const tabNav = (tab) => {
     setActiveTab(tab);
